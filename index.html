@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#fbe3da">
+    <meta name="msapplication-TileColor" content="#fbe3da">
+    <meta name="theme-color" content="#fbe3da">
+    
+    <title>Site de l'office de tourisme de Villefranche-sur-mer</title>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Slick slider CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css">
+    <!-- Fichier CSS -->
+     <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- Barre widget en haut de la page -->
+        <div class="barreWidget">
+            <nav class="barreWidget__container container">
+                <ul class="barreWidget__social">
+                    <li><a href="#"><img src="images/facebook-logo.svg" alt="Facebook"></a></li>
+                     <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+                </ul>
+                <span>Office de tourisme de Villefranche-sur-mer</span>
+                
+
+                <ul class="barreWidget__contact">
+                    <li class="contact effet_hover">
+                        <a href="#"><img src="images/telephone.svg" alt="Téléphone" ></a>
+                        <span>04857412036</span>
+                    </li>
+                    <li class="contact effet_hover">
+                        <a href="#"><img src="images/mail.svg" alt="E-mail" ></a>
+                        <span>contact@ot.fr</span>
+                    </li>
+                    <li class="contact effet_hover">
+                        <a href="#"><img src="images/météo.svg" alt="Météo" ></a>
+                        <span>Journée ensoleillé</span>
+                    </li>
+                    <li class="dernier-lien"><a href="#"><img src="images/recherche.svg" alt="Recherche" ></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Menu de navigation -->
+        <div class="menu">
+            <nav class="menu__container container nav">
+                <img src="images/logo-villefranche.svg" alt="Logo de villefranche-sur-mer">
+                <img class="ligne-separatrice img-fluid" src="images/ligne-header.svg" alt="Ligne séparatrice entre le logo et les liens de navigation">
+                <div class="hamburger-container">
+                    <ul class="hamburger">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <ul class="menu__liens" id="menu">
+                    <li><a href="#">La ville</a></li>
+                    <li><a href="#">À voir, à faire</a></li>
+                    <li><a href="#">Sejourner</a></li>
+                    <li class="dernier-lien"><a href="#">Contact</a></li>
+                </ul>
+            </nav>    
+        </div>
+    </header>
+
+      <!-- Section Hero -->
+    <section class="hero">
+        <div class="hero__container container">
+          <img src="images/herov2.png" alt="Photographie d'une église avec vue sur la mer" class="hero_image">
+            <div class="hero__text" >
+
+                <h2>L'ancien chemin de<br> ronde</h2>
+                <a href="#">Je découvre</a>
+            </div>
+            <span>V</span>
+        </div>
+    </section>
+
+    <!-- Section les incontournables à visiter -->
+
+    <section class="incontournables">
+        <div class="incontournables__container container">
+            <div class="incontournables__header header-section">
+                <h3>A voir absolument</h3>
+                <h2>les endroits incontournables à visiter</h2>
+            </div>
+            <div class="incontournables__slider">
+                <div class="incontournables__slide">
+                    <!-- Slide 1-->
+                    <div class="col-xl-8 col-md-6 col-12">
+                        <img class="img-fluid" src="images/slide-1@2x.jpg" alt="Photographie de l'église de Saint-Michel à Villefranche-sur-mer">
+                    </div>
+                    <h2>L'église de Saint-Michel</h2>
+                    <div class="incontournables__slide__text">
+                        <div class="etiquette">
+                            <img src="images/ligne-etiquette-incontournables.svg">
+                            <h3>Religieux</h3>
+                        </div>
+                        <p>L’église Saint-Michel constitue le fait urbanistique de la ville. Elle se signale par son ample façade au crépi clair contrastant avec des parois latérales sombres et par son clocher qui semble émerger des maisons alentours. Un endroit certainement à visiter!</p>
+                        <a class="lien_effet_slide" href="#">Découvrir</a>
+                        <div class="navigation">
+                            <div class="fleche-gauche"><img src="images/fleche-gauche.svg" alt="Icone d'une flèche vers la gauche"></div>
+                            <div class="fleche-droite"><img src="images/fleche-droite.svg" alt="Icone d'une flèche vers la droite"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Slide 2 -->
+                <div class="incontournables__slide incontournables__slide--second">
+                    <div class="col-xl-8 col-md-6">
+                        <img class="img-fluid" src="images/darse.jpg" alt="Photographie du port de la Darse à Villefranche-sur-mer">
+                    </div>
+                    <h2>Le port de la Darse</h2>
+                    <div class="incontournables__slide__text">
+                        <div class="etiquette">
+                            <img src="images/ligne-etiquette-incontournables.svg">
+                            <h3>Patrimoine maritime</h3>
+                        </div>
+                        <p>La darse de Villefranche-sur-Mer est le port historique de cette ville des Alpes-Maritimes, sur la Côte d'Azur. Elle est l'ancien arsenal du Duché de Savoie, devenu plus tard Royaume de Sardaigne. Les principaux bâtiments du port sont protégés par les Monuments historiques depuis 1991.</p>
+                        <a class="lien_effet_slide" href="#">Découvrir</a>
+                        <div class="navigation">
+                            <div class="fleche-gauche"><img src="images/fleche-gauche.svg" alt="Icone d'une flèche vers la gauche"></div>
+                            <div class="fleche-droite"><img src="images/fleche-droite.svg" alt="Icone d'une flèche vers la droite"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slide 3 -->
+                <div class="incontournables__slide">
+                    <div class="col-xl-8 col-md-6">
+                        <img class="img-fluid" src="images/citadelle.jpg" alt="Photographie de l'ancienne citadelle Villefranche-sur-mer">
+                    </div>
+                    <h2>L'ancienne citadelle</h2>
+                    <div class="incontournables__slide__text">
+                        <div class="etiquette">
+                            <img src="images/ligne-etiquette-incontournables.svg">
+                            <h3>Patrimoine historique</h3>
+                        </div>
+                        <p>La citadelle Saint-Elme située à Villefranche-sur-mer est un monument historique2 du xvie siècle s’enserrant dans un ensemble architectural militaire plus large incluant le Fort du mont Alban, la tour Saint-Hospice de Saint-Jean-Cap-Ferrat et la batterie de Beaulieu-sur-Mer.</p>
+                        <a class="lien_effet_slide" href="#">Découvrir</a>
+                        <div class="navigation">
+                            <div class="fleche-gauche"><img src="images/fleche-gauche.svg" alt="Icone d'une flèche vers la gauche"></div>
+                            <div class="fleche-droite"><img src="images/fleche-droite.svg" alt="Icone d'une flèche vers la droite"></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+<!-- Section découvrez la ville -->
+
+    <section class="laVille">
+        <div class="laVille__container container">
+            <div class="laVille__header header-section">
+                <h3>Découvrez la ville</h3>
+                <h2>ce qui rend villefranche unique</h2>
+            </div>
+            <div class="laVille__contenu row">
+                <div class="laVille__contenu__carte col-sm-4 col-12">
+                    <div class="laVille__effet__zoom">
+                        <img src="images/la-plage.jpg" alt="Photographie aérenienne du litoral de Villefranche-sur-mer">
+                    </div>
+                    <h2>La plage</h2>
+                </div>
+                <div class="laVille__contenu__carte col-sm-4">
+                    <div class="laVille__effet__zoom">
+                        <img src="images/vieille-ville.jpg" alt="Photographie d'une petite rue dans la veille ville de Villefranche-sur-Mer">
+                    </div>
+                    <h2>La vieille ville</h2>
+                </div>
+                <div class="laVille__contenu__carte col-sm-4">
+                    <div class="laVille__effet__zoom">
+                        <img src="images/gastronomie.jpg" alt="Des poissons sur la grille">
+                    </div>
+                    <h2>La Gastronomie</h2>
+                </div>
+            </div>
+    </section>
+
+    <!-- Section l'agenda -->
+    <section class="agenda">
+        <div class="agenda__container container">
+            <div class="agenda__header header-section">
+                <h3>Agenda</h3>
+                <h2>les rendez-vous à ne pas manquer</h2>
+            </div>
+            <div class="agenda__filtres">
+                <a href="#"><button>Ce week-end</button></a>
+                <a href="#"><button>Cette semaine</button></a>
+                <a href="#"><button>Ce mois-ci</button></a>
+                <a href="#"><button>Tous les RDV</button></a>
+            </div>
+            <div class="agenda__contenu">
+                <div class="agenda__dates">
+                    <div class="date">
+                        <p><strong>30</strong> août 2019</p>
+                        <h3>Soirée sur le litoral</h3>
+                        <a class="lien_effet" href="#">Découvrir</a>
+                    </div>
+                    <div class="date">
+                        <p><strong>12 > 31</strong> juil aout 2019</p>
+                        <h3>dégustation de plats méditerranéens</h3>
+                        <a class="lien_effet" href="#">Découvrir</a>
+                    </div>
+                </div>
+                <div class="agenda__photo">
+                    <img class="img-fluid" src="images/rdv-soiree.png" alt="">
+                    <p>Soirée sur le litoral</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section flux Instagram -->
+
+    <section class="instagram">
+        <div class="instagram__container">
+            <div class="instagram__header header-section">
+                <h3>Instagram</h3>
+                <h2>#Villefranche-sur-mer</h2>
+            </div>
+            <div class="instagram__flux" id="instafeed">
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Section footer -->
+
+    <footer>
+        <div class="footer__container container">
+            <div class="footer__contact">
+                <h2>Office de tourisme de<br> Villefranche-sur-Mer</h2>
+                <p>Jardin François Binon,<br> 06230 Villefranche-sur-Mer</p>
+                <span><img src="images/telephone.svg" alt="icone blanche d'un téléphone pour symboliser le contact">  <a class="lien_telephone" href="tel:+3304857412036">04857412036</a></span>
+            </div>
+            <div class="footer__content">
+                <div class="footer__content__catalogue">
+                    <div class="mobile">
+                            <h2>Office de tourisme de<br> Villefranche-sur-Mer</h2>
+                            <p>Jardin François Binon,<br> 06230 Villefranche-sur-Mer</p>
+                            <span><img src="images/telephone-blue.svg" alt="icone blue d'un téléphone" class="svg_blue">
+                                <img src="images/telephone.svg" alt="icone blanche d'un téléphone pour symboliser le contact" class="svg_blanc">  <a class="lien_telephone" href="tel:+3304857412036">04857412036</a></span>
+                    </div>
+                    <img src="images/logo-villefranche.svg" alt="Logo de la ville de Villefranche-sur-Mer">
+                    <a href="#"><img src="images/mag.svg" alt="Couverture du magazine fictif de la ville de Villefranche-sur-Mer"></a>
+                    <a href="#" class="lien_telechargement">Téléchargez la brochure</a>
+                </div>
+                <div class="footer__content__externes">
+                    <a href="#" id="lien_espace">Espace pro</a>
+                    <a href="#" id="lien_groupes">Groupes</a>
+                    <div class="footer__reseaux">
+                        <a href="#"><img src="images/facebook-logo.svg" alt="Logo du Facebook"></a>
+                        <a href="#"><img src="images/instagram.svg" alt="Logo de Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__carte">
+                <img src="images/logo-villefranche.svg" alt="Logo de Villefranche-sur-mer" class="responsive">
+                <img src="images/carte.svg" alt="Carte de France avec un point sur l'endroit où se trouve Villefranche-sur-Mer" class="img-fluid">
+            </div>
+        </div>
+    </footer>
+    
+     <!-- Section footer -->
+
+     <div class="barre__mentions">
+         <div class="container">
+             <a href="#">Mentions légales</a>
+             <a href="#">Données personnelles</a>
+             <a href="#">Plan du site</a>
+             <div class="reseaux__sociaux">
+                    <a href="#"><img src="images/facebook-logo.svg" alt="Logo du Facebook"></a>
+                    <a href="#"><img src="images/instagram.svg" alt="Logo de Instagram"></a>
+             </div>
+         </div>
+     </div>
+    <!-- jQuery suivi par Popper.js et Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.boomcdn.com/libs/instafeed-js/1.4.1/instafeed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
